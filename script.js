@@ -26,7 +26,7 @@ function addGoal(){
     const getLitreInput= litreInput.value;
     console.log("the input value for shadename is" + getShedInput);
     console.log("the input value for liter capacity is" +  getLitreInput);
-    const literItemEl= document.createElement("li");
-    
+    const listItemEl= document.createElement("li");
+    listItemEl.textContent= "shed" + " " + getShedInput + ": " + getLitreInput;
 
 }
