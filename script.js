@@ -44,6 +44,13 @@ function calculateIncome(){
   let monthListItemEl = document.createElement("li");
   if (sellingPrice === "") {
     alert("Please enter selling price to proceed");
+  }
+  else {
+    for (let index = 0; index < dataArr.length; index++) {
+      objvalue = dataArr[index].capacity;
+      totalLitres += parseInt(objvalue);
+      console.log(objvalue);
+    }
+}
 
-    
 }
