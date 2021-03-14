@@ -40,5 +40,10 @@ function calculateIncome(){
     totalLiters=0;
     const sellingPrice= document.getElementById("sellingPrice").value;
     const yearSelected= document.querySelector('input[name="year]:checked').value
+    let totalIncomeWeekly, totalIncomeYearly, totalIncomeLeapYear;
+  let monthListItemEl = document.createElement("li");
+  if (sellingPrice === "") {
+    alert("Please enter selling price to proceed");
+
     
 }
