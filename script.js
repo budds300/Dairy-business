@@ -65,5 +65,9 @@ function calculateIncome(){
             document.getElementById("dailyIncome").innerHTML = sellingPrice * totalLitres;
             document.getElementById("WeeklyIncome").innerHTML = totalIncomeWeekly;
       document.getElementById("yearlyIncome").innerHTML = totalIncomeYearly;
+      for (const property in yearCalender) {
+        // listElIncomeList
+        console.log(`Month of  ${property} :  ${yearCalender[property] * sellingPrice}`)
+
 
 }
