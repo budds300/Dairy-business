@@ -56,6 +56,8 @@ function calculateIncome(){
         totalIncomeWeekly = sellingPrice * totalLitres * 7;
         totalIncomeYearly = sellingPrice * totalLitres * 365;
         document.getElementById("dailyIncome").innerHTML = sellingPrice * totalLitres;
+        document.getElementById("WeeklyIncome").innerHTML = totalIncomeWeekly;
+        document.getElementById("yearlyIncome").innerHTML = totalIncomeYearly;
 }
 
 }
