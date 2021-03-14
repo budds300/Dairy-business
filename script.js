@@ -51,6 +51,11 @@ function calculateIncome(){
       totalLitres += parseInt(objvalue);
       console.log(objvalue);
     }
+    console.log(sellingPrice * totalLitres);
+    if (yearSelected == "regular") {
+        totalIncomeWeekly = sellingPrice * totalLitres * 7;
+        totalIncomeYearly = sellingPrice * totalLitres * 365;
+        document.getElementById("dailyIncome").innerHTML = sellingPrice * totalLitres;
 }
 
 }

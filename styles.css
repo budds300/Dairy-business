@@ -47,3 +47,6 @@ button{
     font-family: sans-serif;
     font-style: oblique;
     }
+    input{
+        padding: 5px;
+    }
