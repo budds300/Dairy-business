@@ -14,7 +14,26 @@
         <label for="litersCapacity">Enter capacity of shed</label>
         <input type="number" name="" id="litersCapacity">
         <button type="submit" id="addShed">Add Capacity</button>
+        <ul id="totalProduction">
+
+        </ul>
     </div>
+    <br>
+    <label for="#sellingPrice"> Insert Selling Price</label>
+    <input type="number" name="" id="sellingPrice">
+    <br>
+    <br>
+    <label for="regularId">Regular year</label>
+    <input type="radio" name="year" id="regularId" value="regular" checked>
+    <label for="leapId">Leap Year</label>
+    <input type="radio" name="" id="leapId" value="leap">
+    <br>
+    <br>
+    <button id="calculateIncomeButton">Calculate Income</button>
+    <h4>Daily Income is: <span id="dailyIncome"></span></h4>
+    <h4>Weekly Income is: <span id="weeklyIncome"></span></h4>
+    <h4>Yearly Income is: <span id="yearlyIncome"></span></h4>
+    
 
     <script src="script.js"></script>
 </body>
