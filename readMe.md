@@ -2,7 +2,7 @@
 ## Author.
 ### *Tamminga Budds*(14/03/2021)
 ## Description
-* This is a single web page design of a dairy business records of income and capacity of liters. You can view the live link on: hhttps://budds300.github.io/Dairy-business/.
+* This is a single web page design of a dairy business records of income and capacity of liters. You can view the live link on: https://budds300.github.io/Dairy-business/.
 
 
 ## Langueges used
