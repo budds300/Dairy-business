@@ -68,6 +68,13 @@ function calculateIncome(){
       for (const property in yearCalender) {
         // listElIncomeList
         console.log(`Month of  ${property} :  ${yearCalender[property] * sellingPrice}`)
-
-
+      }
+    }
 }
+}
+calculateIncomeButton.addEventListener("click", calculateIncome);
+document.querySelectorAll("input[name='year']").forEach((input) => {
+    input.addEventListener("change", calculateIncome);
+  });
+  addShedButton.addEventListener("click", addGoal);
+
